@@ -2,10 +2,15 @@
 
 main() //Fonction principale = point d'entrée du programme
 {
-    int i = 10;
+    int i = 9;
     int j = 5;
+    float k = 3.5;
 
-        printf("La valeur de i : %d\n La valeur de j :%d", i,j); // %d = un entier
+
+        printf("%.2f \n", (float)i/j); // %d = un entier // //le .2 pour n'afficher aque deux nombres après la virgule //le (float) permet d'afficher un réel //
+
+        printf("%.2f", (float)i/j);
+
 
 
 
