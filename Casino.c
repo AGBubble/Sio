@@ -5,13 +5,13 @@ main ()
         printf("Entrez votre age");
         scanf("%d", &age);
 
-    if(age >=18)
+    if(age >=18 && age <=65)
     {
-        printf("\nBienvenue", age);
+        printf("\nBienvenue");
     }
     else
     {
-        printf("Trop jeune");
+        printf("Age non conforme");
     }
 
 }
