@@ -34,7 +34,7 @@ main()
     }
 }
 
-/** Correction
+
 
 main()
 {
@@ -46,15 +46,32 @@ main()
 
     prixTotal = nbCles * pu;
 
-    if(nbCles >= 20)
+    if(nbCles >= 50)
     {
-        prixTotal = prixTotal * 0.7;
+       rem = prixTotal * .5;
     }
 
+    else if(nbCles >= 20)
+    {
+        rem = prixTotal * .2;
+    }
     else if(nbCles >= 10)
     {
-        prixTotal = prixTotal * 0.8;
+        rem = prixTotal  * .1;
     }
+
+    port = prixTotal * 0.1
+    if(port < 9.5)
+    {
+        port = 9.5;
+    }
+    if (prixTotal >= 500)
+    {
+        port = 0;
+    }
+
+    pap = prixTotal + port - rem;
+    printf("\n\nVous me devez %.2f euros")
     printf("\n\nVous me devez %.2f euros", prixTotal);
 }
-**/
+
