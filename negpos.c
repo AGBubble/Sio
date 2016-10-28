@@ -5,12 +5,11 @@ int main()
     int num1;
     int num2;
 
-    printf("Entrez un premier nombre");
-    scanf("%d", &num1);
-    printf("Entrez un deuxieme nombre");
-    scanf("%d", &num2);
+    printf("Entrez 2 entiers");
+    scanf("%d &d", &num1, &num2);
+    ;
 
-    if ( num1 < 0 && num2 < 0 || num1 > 0 && num2 > 0)
+    if ( (num1 < 0 && num2 < 0) || (num1 > 0 && num2 > 0))
     {
         printf("Les nombres sont du meme signe");
     }
