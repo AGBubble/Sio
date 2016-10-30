@@ -1,4 +1,6 @@
-/* Exercice 1 */
+/* Exercice 1 
+Ecrire un programme qui saisit deux entiers et affiche leur produit. Modifier ensuite le programme afin de saisisr deux réels
+*/
 
 int main()
 {
@@ -13,7 +15,9 @@ int main()
     printf("%d", pdt);
 
     /* LE PROGRAMME AVEC DES REELS
-    float nb1;
+    
+	
+	float nb1;
     float nb2;
 
     printf("Entrez deux nombres\n");
@@ -22,5 +26,6 @@ int main()
     float pdt = nb1 * nb2;
 
     printf("%.2f", pdt);
-    */
+    
+	*/
 }
