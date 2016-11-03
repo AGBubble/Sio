@@ -15,8 +15,12 @@ int main ()
     {
         printf("Entrez 1 valeur\n");
         scanf("%d", &j);
-
-    k = k +j;
+        while (j < 10 || j > 20)
+        {
+            printf("\nErreur, resaisir votre valeur :");
+            scanf("%d", &j);
+        }
+        k = k +j;
 
         i++;
     }
